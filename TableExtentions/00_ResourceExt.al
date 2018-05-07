@@ -16,7 +16,7 @@ tableextension 123456700 ResourceExt extends Resource
             Caption = 'Maximum Participants';
             DataClassification = ToBeClassified;
         }
-        field(123456702;"CSD_Quantity Per Day";Decimal)
+        field(123456702;"CSD_Quantity Per Day";Integer)
         {
             Caption='Quantity Per Day';
             DataClassification = ToBeClassified;
