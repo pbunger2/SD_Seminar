@@ -32,13 +32,13 @@ table 123456701 Seminar
             Caption = 'Seminar Duration';
             DecimalPlaces = 0 : 1;
         }
-        field(40; "Minimum Participants "; Integer)
+        field(40; "Minimum Participants"; Integer)
         {
-            Caption = ' Minimum Participants ';
+            Caption = ' Minimum Participants';
         }
-        field(50; "Maximum Participants "; Integer)
+        field(50; "Maximum Participants"; Integer)
         {
-            Caption = ' Maximum Participants';
+            Caption = 'Maximum Participants';
         }
         field(60; "Search Name"; Code[50])
         {
@@ -134,7 +134,7 @@ table 123456701 Seminar
 
     var
         SeminarSetup: Record "Seminar Setup";
-        //CommentLine: record "Seminar Comment Line";
+        // ***CommentLine: record "Seminar Comment Line";
         Seminar: Record Seminar;
         GenProdPostingGroup: Record "Gen. Product Posting Group";
         NoSeriesMgt: Codeunit NoSeriesManagement;

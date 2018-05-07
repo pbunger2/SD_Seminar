@@ -11,7 +11,7 @@ tableextension 123456700 ResourceExt extends Resource
             DataClassification= ToBeClassified;
 
         }
-        field(123456701;"CSD_Maximum Participants";Decimal)
+        field(123456701;"CSD_Maximum Participants";Integer)
         {
             Caption = 'Maximum Participants';
             DataClassification = ToBeClassified;
