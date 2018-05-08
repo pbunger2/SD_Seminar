@@ -4,10 +4,10 @@ page 123456700 "Seminar Setup"
 {
     PageType = Card;
     SourceTable = "Seminar Setup";
-    Caption='Seminar Setup';
+    Caption='Seminar SetupXXX';
     InsertAllowed = false;
     DeleteAllowed = false;
-    UsageCategory = Administration;
+    UsageCategory = Lists;//Administration;
 
     layout
     {
